@@ -46,10 +46,10 @@ Here are the checksums we got, please verify:
 
 ```
 openssl dgst -sha256 contracts/1.7.1/eosio.system/eosio.system.wasm
-SHA256(contracts/1.7.1/eosio.system/eosio.system.wasm)= 2b10316f971a99ea99079a2104ddc95cc1bae2cddce80088e3c885875d82ac21
+SHA256(contracts/1.7.1/eosio.system/eosio.system.wasm)= 612b7eb30654473e6b943e58d49c0393eea619d7e53dbc8a166f484546ed02cc
 
 openssl dgst -sha256 contracts/1.7.1/eosio.system/eosio.system.abi
-SHA256(contracts/1.7.1/eosio.system/eosio.system.abi)= d4c0c47784247f7aac6515b9a01e3a5f8280a5e6f5d8e12cb17e22f71b61eb4f
+SHA256(contracts/1.7.1/eosio.system/eosio.system.abi)= 0c5d9f102e0cf72adeae1d0247492c2612032a7e95e097a69eb313a0c8e3af55
 ```
 
 ##### eosio.token:
@@ -73,7 +73,7 @@ SHA256(contracts/1.7.1/eosio.msig/eosio.msig.abi)= b9192fe8ab8d7851b3f5ff3d2efea
 ```
 
 
-## Deploy eosio.system/eosio.token/eosio.msig contracts
+## Deploy eosio.system contract
 
 ### 1. Prepare transaction payload
 
@@ -136,7 +136,7 @@ cleos -u https://api-kylin.eoslaomao.com multisig propose_trx producer_perm.json
 
 We have proposed to deplpy `eosio.system` on Kylin Testnet.
 
-The payload used for the these proposals can be found in `deploy_system.json`, `deploy_token.json` and `deploy_msig.json`, please review and verify.
+The contract used can be found under `contracts/1.7.1/`
 
 1. Proposal to deploy eosio.system:
 
