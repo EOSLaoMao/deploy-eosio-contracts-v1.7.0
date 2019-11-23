@@ -1,0 +1,108 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/opt/eosio.cdt/1.6.3/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/opt/eosio.cdt/1.6.3/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_244d6/fast"
+make[3]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_244d6.dir/build.make CMakeFiles/cmTC_244d6.dir/build
+make[4]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_244d6.dir/CMakeCCompilerABI.c.obj
+/usr/bin/eosio-cc    -o CMakeFiles/cmTC_244d6.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_244d6.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_244d6.dir/link.txt --verbose=1
+/usr/bin/eosio-ld  -v CMakeFiles/cmTC_244d6.dir/CMakeCCompilerABI.c.obj -o cmTC_244d6.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_244d6.dir/build.make:97: recipe for target 'cmTC_244d6.wasm' failed
+make[4]: *** [cmTC_244d6.wasm] Error 1
+make[4]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_244d6/fast' failed
+make[3]: *** [cmTC_244d6/fast] Error 2
+make[3]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc05c/fast"
+make[3]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dc05c.dir/build.make CMakeFiles/cmTC_dc05c.dir/build
+make[4]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc05c.dir/feature_tests.c.obj
+/usr/bin/eosio-cc   -std=c11 -o CMakeFiles/cmTC_dc05c.dir/feature_tests.c.obj   -c /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/usr/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_dc05c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dc05c.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_dc05c.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc05c/fast' failed
+make[3]: *** [cmTC_dc05c/fast] Error 2
+make[3]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b82e3/fast"
+make[3]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b82e3.dir/build.make CMakeFiles/cmTC_b82e3.dir/build
+make[4]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b82e3.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/eosio-cpp     -o CMakeFiles/cmTC_b82e3.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b82e3.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b82e3.dir/link.txt --verbose=1
+/usr/bin/eosio-ld  -v CMakeFiles/cmTC_b82e3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b82e3.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_b82e3.dir/build.make:97: recipe for target 'cmTC_b82e3.wasm' failed
+make[4]: *** [cmTC_b82e3.wasm] Error 1
+make[4]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b82e3/fast' failed
+make[3]: *** [cmTC_b82e3/fast] Error 2
+make[3]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20c1d/fast"
+make[3]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_20c1d.dir/build.make CMakeFiles/cmTC_20c1d.dir/build
+make[4]: Entering directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20c1d.dir/feature_tests.cxx.obj
+/usr/bin/eosio-cpp    -std=c++1z -o CMakeFiles/cmTC_20c1d.dir/feature_tests.cxx.obj -c /home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_20c1d.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20c1d.dir/link.txt --verbose=1
+/usr/bin/eosio-ld   CMakeFiles/cmTC_20c1d.dir/feature_tests.cxx.obj -o cmTC_20c1d.wasm 
+/usr/opt/eosio.cdt/1.6.3/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_20c1d.dir/build.make:97: recipe for target 'cmTC_20c1d.wasm' failed
+make[4]: *** [cmTC_20c1d.wasm] Error 255
+make[4]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_20c1d/fast' failed
+make[3]: *** [cmTC_20c1d/fast] Error 2
+make[3]: Leaving directory '/home/eos/opt/eosio.contracts.laomao/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
